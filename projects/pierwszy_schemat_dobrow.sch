@@ -8213,12 +8213,12 @@ single anode, 13 mm</description>
 <attribute name="NAME" x="139.7" y="146.685" size="1.778" layer="95"/>
 <attribute name="VALUE" x="147.32" y="142.24" size="1.778" layer="96"/>
 </instance>
-<instance part="IC2" gate="A1" x="128.27" y="175.26" smashed="yes">
-<attribute name="NAME" x="120.65" y="180.975" size="1.778" layer="95"/>
-<attribute name="VALUE" x="120.65" y="178.435" size="1.778" layer="96"/>
+<instance part="IC2" gate="A1" x="204.47" y="106.68" smashed="yes">
+<attribute name="NAME" x="196.85" y="112.395" size="1.778" layer="95"/>
+<attribute name="VALUE" x="196.85" y="109.855" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="128.27" y="161.29" smashed="yes">
-<attribute name="VALUE" x="125.73" y="158.75" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="204.47" y="91.44" smashed="yes">
+<attribute name="VALUE" x="201.93" y="88.9" size="1.778" layer="96"/>
 </instance>
 <instance part="U2" gate="G$1" x="41.91" y="59.69" smashed="yes"/>
 </instances>
@@ -8298,7 +8298,7 @@ single anode, 13 mm</description>
 <segment>
 <pinref part="IC2" gate="A1" pin="GND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="128.27" y1="167.64" x2="128.27" y2="163.83" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="99.06" x2="204.47" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TX_ARDUINO" class="0">
@@ -8470,10 +8470,10 @@ single anode, 13 mm</description>
 <wire x1="135.89" y1="146.05" x2="135.89" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="135.89" y1="149.86" x2="123.19" y2="149.86" width="0.1524" layer="91"/>
 <junction x="123.19" y="149.86"/>
-<wire x1="135.89" y1="149.86" x2="148.59" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="148.59" y1="149.86" x2="148.59" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="135.89" y1="149.86" x2="151.13" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="149.86" x2="154.94" y2="146.05" width="0.1524" layer="91"/>
 <junction x="135.89" y="149.86"/>
-<label x="148.59" y="142.24" size="1.016" layer="95" xref="yes"/>
+<label x="154.94" y="146.05" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
@@ -8492,10 +8492,10 @@ single anode, 13 mm</description>
 <wire x1="138.43" y1="146.05" x2="138.43" y2="151.13" width="0.1524" layer="91"/>
 <wire x1="138.43" y1="151.13" x2="125.73" y2="151.13" width="0.1524" layer="91"/>
 <junction x="125.73" y="151.13"/>
-<wire x1="138.43" y1="151.13" x2="151.13" y2="151.13" width="0.1524" layer="91"/>
-<wire x1="151.13" y1="151.13" x2="151.13" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="138.43" y1="151.13" x2="152.4" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="151.13" x2="154.94" y2="148.59" width="0.1524" layer="91"/>
 <junction x="138.43" y="151.13"/>
-<label x="151.13" y="144.78" size="1.016" layer="95" xref="yes"/>
+<label x="154.94" y="148.59" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
@@ -8514,9 +8514,8 @@ single anode, 13 mm</description>
 <wire x1="143.51" y1="146.05" x2="143.51" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="143.51" y1="152.4" x2="130.81" y2="152.4" width="0.1524" layer="91"/>
 <junction x="130.81" y="152.4"/>
-<wire x1="143.51" y1="152.4" x2="152.4" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="152.4" x2="154.94" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="152.4" x2="154.94" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="143.51" y1="152.4" x2="153.67" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="153.67" y1="152.4" x2="154.94" y2="151.13" width="0.1524" layer="91"/>
 <junction x="143.51" y="152.4"/>
 <label x="154.94" y="151.13" size="1.016" layer="95" xref="yes"/>
 </segment>
@@ -8537,9 +8536,9 @@ single anode, 13 mm</description>
 <junction x="133.35" y="153.67"/>
 <pinref part="LED1" gate="G$1" pin="B"/>
 <wire x1="114.3" y1="153.67" x2="114.3" y2="148.59" width="0.1524" layer="91"/>
-<wire x1="146.05" y1="153.67" x2="156.21" y2="153.67" width="0.1016" layer="91"/>
+<wire x1="146.05" y1="153.67" x2="154.94" y2="153.67" width="0.15" layer="91"/>
 <junction x="146.05" y="153.67"/>
-<label x="156.21" y="153.67" size="1.016" layer="95" xref="yes"/>
+<label x="154.94" y="153.67" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
@@ -8670,10 +8669,10 @@ single anode, 13 mm</description>
 <wire x1="123.19" y1="121.92" x2="135.89" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="135.89" y1="121.92" x2="135.89" y2="125.73" width="0.1524" layer="91"/>
 <junction x="123.19" y="121.92"/>
-<wire x1="135.89" y1="121.92" x2="147.32" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="121.92" x2="158.75" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="135.89" y1="121.92" x2="152.4" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="121.92" x2="154.94" y2="124.46" width="0.1524" layer="91"/>
 <junction x="135.89" y="121.92"/>
-<label x="158.75" y="123.19" size="1.016" layer="95" xref="yes"/>
+<label x="154.94" y="124.46" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
@@ -8691,10 +8690,10 @@ single anode, 13 mm</description>
 <wire x1="133.35" y1="123.19" x2="146.05" y2="123.19" width="0.1524" layer="91"/>
 <wire x1="146.05" y1="123.19" x2="146.05" y2="125.73" width="0.1524" layer="91"/>
 <junction x="133.35" y="123.19"/>
-<wire x1="146.05" y1="123.19" x2="148.59" y2="127" width="0.1524" layer="91"/>
-<wire x1="148.59" y1="127" x2="153.67" y2="127" width="0.1524" layer="91"/>
+<wire x1="146.05" y1="123.19" x2="151.13" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="123.19" x2="154.94" y2="127" width="0.1524" layer="91"/>
 <junction x="146.05" y="123.19"/>
-<label x="153.67" y="127" size="1.016" layer="95" xref="yes"/>
+<label x="154.94" y="127" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
@@ -8713,11 +8712,10 @@ single anode, 13 mm</description>
 <wire x1="125.73" y1="120.65" x2="138.43" y2="120.65" width="0.1524" layer="91"/>
 <wire x1="138.43" y1="120.65" x2="138.43" y2="125.73" width="0.1524" layer="91"/>
 <junction x="125.73" y="120.65"/>
-<wire x1="138.43" y1="120.65" x2="149.86" y2="120.65" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="120.65" x2="153.67" y2="120.65" width="0.1524" layer="91"/>
-<wire x1="153.67" y1="120.65" x2="153.67" y2="118.11" width="0.1524" layer="91"/>
+<wire x1="138.43" y1="120.65" x2="153.67" y2="120.65" width="0.1524" layer="91"/>
+<wire x1="153.67" y1="120.65" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
 <junction x="138.43" y="120.65"/>
-<label x="153.67" y="118.11" size="1.016" layer="95" xref="yes"/>
+<label x="154.94" y="121.92" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
@@ -8736,11 +8734,9 @@ single anode, 13 mm</description>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="130.81" y1="125.73" x2="130.81" y2="119.38" width="0.1524" layer="91"/>
 <junction x="130.81" y="119.38"/>
-<wire x1="143.51" y1="119.38" x2="143.51" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="143.51" y1="114.3" x2="146.05" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="146.05" y1="114.3" x2="152.4" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="143.51" y1="119.38" x2="154.94" y2="119.38" width="0.1524" layer="91"/>
 <junction x="143.51" y="119.38"/>
-<label x="152.4" y="114.3" size="1.016" layer="95" xref="yes"/>
+<label x="154.94" y="119.38" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
