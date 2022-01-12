@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -20309,7 +20309,6 @@ www.betemcu.cu</description>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E5-8.5" package3d_urn="urn:adsk.eagle:package:23374/1" value="470u/25V"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="0.1u"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC3" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="V" package3d_urn="urn:adsk.eagle:package:30365/1"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="10u"/>
@@ -20320,6 +20319,7 @@ www.betemcu.cu</description>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DOCFIELD" device=""/>
 <part name="U$1" library="Arduino-clone" deviceset="PRO-MINI" device=""/>
+<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20472,9 +20472,6 @@ www.betemcu.cu</description>
 <instance part="GND2" gate="1" x="187.96" y="109.22" smashed="yes">
 <attribute name="VALUE" x="185.42" y="106.68" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="218.44" y="109.22" smashed="yes">
-<attribute name="VALUE" x="215.9" y="106.68" size="1.778" layer="96"/>
-</instance>
 <instance part="GND7" gate="1" x="227.33" y="109.22" smashed="yes">
 <attribute name="VALUE" x="224.79" y="106.68" size="1.778" layer="96"/>
 </instance>
@@ -20508,6 +20505,9 @@ www.betemcu.cu</description>
 <attribute name="DRAWING_NAME" x="202.332690625" y="22.88" size="2.54" layer="94"/>
 </instance>
 <instance part="U$1" gate="G$1" x="26.67" y="81.28" smashed="yes" rot="R270"/>
+<instance part="GND6" gate="1" x="218.44" y="109.22" smashed="yes">
+<attribute name="VALUE" x="215.9" y="106.68" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -20627,6 +20627,11 @@ www.betemcu.cu</description>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="44.45" y1="53.34" x2="44.45" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="-"/>
+<wire x1="218.44" y1="114.3" x2="218.44" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="TX_ARDUINO" class="0">
@@ -21098,13 +21103,6 @@ www.betemcu.cu</description>
 <pinref part="C1" gate="G$1" pin="-"/>
 <wire x1="187.96" y1="114.3" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="C2" gate="G$1" pin="-"/>
-<wire x1="218.44" y1="114.3" x2="218.44" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VCC_3V3" class="0">
