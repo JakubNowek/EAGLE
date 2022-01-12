@@ -20308,7 +20308,6 @@ www.betemcu.cu</description>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E5-8.5" package3d_urn="urn:adsk.eagle:package:23374/1" value="470u/25V"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E5-8.5" package3d_urn="urn:adsk.eagle:package:23374/1" value="470u/25V"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="0.1u"/>
-<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC3" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="V" package3d_urn="urn:adsk.eagle:package:30365/1"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="10u"/>
@@ -20320,6 +20319,7 @@ www.betemcu.cu</description>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DOCFIELD" device=""/>
 <part name="U$1" library="Arduino-clone" deviceset="PRO-MINI" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20469,9 +20469,6 @@ www.betemcu.cu</description>
 <attribute name="NAME" x="228.854" y="119.761" size="1.778" layer="95"/>
 <attribute name="VALUE" x="228.854" y="114.681" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="187.96" y="109.22" smashed="yes">
-<attribute name="VALUE" x="185.42" y="106.68" size="1.778" layer="96"/>
-</instance>
 <instance part="GND7" gate="1" x="227.33" y="109.22" smashed="yes">
 <attribute name="VALUE" x="224.79" y="106.68" size="1.778" layer="96"/>
 </instance>
@@ -20507,6 +20504,9 @@ www.betemcu.cu</description>
 <instance part="U$1" gate="G$1" x="26.67" y="81.28" smashed="yes" rot="R270"/>
 <instance part="GND6" gate="1" x="218.44" y="109.22" smashed="yes">
 <attribute name="VALUE" x="215.9" y="106.68" size="1.778" layer="96"/>
+</instance>
+<instance part="GND2" gate="1" x="187.96" y="109.22" smashed="yes">
+<attribute name="VALUE" x="185.42" y="106.68" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -20632,6 +20632,11 @@ www.betemcu.cu</description>
 <pinref part="C2" gate="G$1" pin="-"/>
 <wire x1="218.44" y1="114.3" x2="218.44" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="-"/>
+<wire x1="187.96" y1="114.3" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="TX_ARDUINO" class="0">
@@ -21096,13 +21101,6 @@ www.betemcu.cu</description>
 <wire x1="187.96" y1="121.92" x2="187.96" y2="125.73" width="0.1524" layer="91"/>
 <junction x="187.96" y="125.73"/>
 <label x="179.07" y="125.73" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="C1" gate="G$1" pin="-"/>
-<wire x1="187.96" y1="114.3" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VCC_3V3" class="0">
