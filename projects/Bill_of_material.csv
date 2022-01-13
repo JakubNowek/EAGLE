@@ -1,0 +1,15 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"AVAILABILITY";"DESCRIPTION";"MF";"MP";"PACKAGE";"POPULARITY";"PRICE";"SPICEPREFIX";
+"2";"";"7SEG-CA";"7SEG-13";"D1, D2";"7-segment DISPLAY";"";"";"";"";"";"5";"";"";
+"6";"";"BC556A-PNP-TO92-EBC";"TO92-EBC";"T1, T2, T3, T4, T5, T6";"PNP Transistror";"";"";"";"";"";"0";"";"";
+"2";"0.1u";"C-EU025-025X050";"C025-025X050";"C3, C5";"CAPACITOR, European symbol";"";"";"";"";"";"65";"";"C";
+"6";"100";"R-EU_0414/15";"0414/15";"R4, R5, R6, R7, R8, R9";"RESISTOR, European symbol";"";"";"";"";"";"0";"";"R";
+"1";"10u";"C-EU025-025X050";"C025-025X050";"C4";"CAPACITOR, European symbol";"";"";"";"";"";"65";"";"C";
+"10";"220";"R-EU_0414/15";"0414/15";"R1, R3, R10, R11, R12, R13, R14, R15, R16, R17";"RESISTOR, European symbol";"";"";"";"";"";"0";"";"R";
+"1";"2k2";"R-EU_0414/15";"0414/15";"R2";"RESISTOR, European symbol";"";"";"";"";"";"0";"";"R";
+"2";"470u/25V";"CPOL-EUE5-8.5";"E5-8,5";"C1, C2";"POLARIZED CAPACITOR, European symbol";"";"";"";"";"";"0";"";"C";
+"1";"74HC595N";"74HC595N";"DIL16";"IC1";"8-bit SHIFT REGISTER, output latch";"";"";"";"";"";"0";"";"";
+"1";"7805T";"7805T";"TO220H";"IC2";"Positive VOLTAGE REGULATOR";"";"";"";"";"";"";"";"";
+"1";"ESP-01";"ESP-01";"ESP-01";"ESP1";"Check prices";"Not in stock";" ESP-01M ESP8266 DIP Adapter series Transceiver";" 802.11 b/g/n (Wi-Fi, WiFi, WLAN) Evaluation Board ";"AI-Thinker";"ESP-01";"Non-Standard AI-Thinker";"";"None";
+"1";"LD117AV";"LD117AV";"TO220L1";"IC3";"Low drop fixed and adjustable positive voltage regulators 1 A";"";"";"";"";"";"0";"";"";
+"1";"LDQ-M3604RI";"LDQ-M3604RI";"LDQ-M3604RI";"LED1";"Check prices";"In Stock";" Display, Seven Segment, 9.2MM, Red ";"Lumex";"LDQ-M3604RI";"None";"";"None";"";
+"1";"PRO-MINI";"PRO-MINI";"PRO-MINI";"U$1";"Arduion Pro Mini Clone V1.0";"";"";"";"";"";"";"";"";
