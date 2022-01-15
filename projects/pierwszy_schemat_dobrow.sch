@@ -9,6 +9,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -19463,28 +19477,28 @@ Based on the following sources:
 <library name="LDQ-M3604RI">
 <packages>
 <package name="LDQ-M3604RI">
-<wire x1="-15" y1="7" x2="15" y2="7" width="0.127" layer="51"/>
-<wire x1="-15" y1="-7" x2="15" y2="-7" width="0.127" layer="51"/>
-<wire x1="-15" y1="7" x2="-15" y2="-7" width="0.127" layer="51"/>
-<wire x1="15" y1="7" x2="15" y2="-7" width="0.127" layer="51"/>
-<wire x1="-15" y1="7" x2="-15" y2="-7" width="0.127" layer="21"/>
-<wire x1="-15" y1="7" x2="15" y2="7" width="0.127" layer="21"/>
-<wire x1="-15" y1="-7" x2="15" y2="-7" width="0.127" layer="21"/>
-<wire x1="15" y1="7" x2="15" y2="-7" width="0.127" layer="21"/>
+<wire x1="-24.384" y1="8.636" x2="24.384" y2="8.636" width="0.127" layer="51"/>
+<wire x1="-24.384" y1="-8.636" x2="24.384" y2="-8.636" width="0.127" layer="51"/>
+<wire x1="-24.384" y1="8.636" x2="-24.384" y2="-8.636" width="0.127" layer="51"/>
+<wire x1="24.384" y1="8.636" x2="24.384" y2="-8.636" width="0.127" layer="51"/>
+<wire x1="-24.384" y1="-8.636" x2="24.384" y2="-8.636" width="0.127" layer="21"/>
 <text x="-2.54" y="-8.89" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-10.16" size="1.27" layer="27">&gt;VALUE</text>
-<pad name="1" x="-6.35" y="-5.08" drill="0.8" diameter="1.778"/>
-<pad name="2" x="-3.81" y="-5.08" drill="0.8" diameter="1.778"/>
-<pad name="3" x="-1.27" y="-5.08" drill="0.8" diameter="1.778"/>
-<pad name="4" x="1.27" y="-5.08" drill="0.8" diameter="1.778"/>
-<pad name="5" x="3.81" y="-5.08" drill="0.8" diameter="1.778"/>
-<pad name="6" x="6.35" y="-5.08" drill="0.8" diameter="1.778"/>
-<pad name="7" x="6.35" y="5.08" drill="0.8" diameter="1.778"/>
-<pad name="8" x="3.81" y="5.08" drill="0.8" diameter="1.778"/>
-<pad name="9" x="1.27" y="5.08" drill="0.8" diameter="1.778"/>
-<pad name="10" x="-1.27" y="5.08" drill="0.8" diameter="1.778"/>
-<pad name="11" x="-3.81" y="5.08" drill="0.8" diameter="1.778"/>
-<pad name="12" x="-6.35" y="5.08" drill="0.8" diameter="1.778"/>
+<pad name="1" x="-6.35" y="-7.62" drill="0.8" diameter="1.778"/>
+<pad name="2" x="-3.81" y="-7.62" drill="0.8" diameter="1.778"/>
+<pad name="3" x="-1.27" y="-7.62" drill="0.8" diameter="1.778"/>
+<pad name="4" x="1.27" y="-7.62" drill="0.8" diameter="1.778"/>
+<pad name="5" x="3.81" y="-7.62" drill="0.8" diameter="1.778"/>
+<pad name="6" x="6.35" y="-7.62" drill="0.8" diameter="1.778"/>
+<pad name="7" x="6.35" y="7.62" drill="0.8" diameter="1.778"/>
+<pad name="8" x="3.81" y="7.62" drill="0.8" diameter="1.778"/>
+<pad name="9" x="1.27" y="7.62" drill="0.8" diameter="1.778"/>
+<pad name="10" x="-1.27" y="7.62" drill="0.8" diameter="1.778"/>
+<pad name="11" x="-3.81" y="7.62" drill="0.8" diameter="1.778"/>
+<pad name="12" x="-6.35" y="7.62" drill="0.8" diameter="1.778"/>
+<wire x1="-24.384" y1="-8.636" x2="-24.384" y2="8.636" width="0.1524" layer="21"/>
+<wire x1="-24.384" y1="8.636" x2="24.384" y2="8.636" width="0.1524" layer="21"/>
+<wire x1="24.384" y1="8.636" x2="24.384" y2="-8.636" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -20262,6 +20276,112 @@ www.betemcu.cu</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-jack" urn="urn:adsk.eagle:library:154">
+<description>&lt;b&gt;Jacks&lt;/b&gt;&lt;p&gt;
+Power Connectors&lt;br&gt;
+Phone Connectors&lt;br&gt;
+Cinch Connectors&lt;br&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="DCJ0202" urn="urn:adsk.eagle:footprint:7486/1" library_version="2">
+<description>&lt;b&gt;DC POWER JACK&lt;/b&gt;&lt;p&gt;
+Source: DCJ0202.pdf</description>
+<wire x1="1.65" y1="2.6" x2="-1.65" y2="2.6" width="0" layer="46"/>
+<wire x1="-1.65" y1="2.6" x2="-1.65" y2="3.6" width="0" layer="46"/>
+<wire x1="-1.65" y1="3.6" x2="1.65" y2="3.6" width="0" layer="46"/>
+<wire x1="1.65" y1="3.6" x2="1.65" y2="2.6" width="0" layer="46"/>
+<wire x1="5.3" y1="1.4" x2="4.3" y2="1.4" width="0" layer="46"/>
+<wire x1="4.3" y1="1.4" x2="4.3" y2="-1.4" width="0" layer="46"/>
+<wire x1="4.3" y1="-1.4" x2="5.3" y2="-1.4" width="0" layer="46"/>
+<wire x1="5.3" y1="-1.4" x2="5.3" y2="1.4" width="0" layer="46"/>
+<wire x1="1.4" y1="-3.5" x2="-1.4" y2="-3.5" width="0" layer="46"/>
+<wire x1="-1.4" y1="-3.5" x2="-1.4" y2="-2.5" width="0" layer="46"/>
+<wire x1="-1.4" y1="-2.5" x2="1.4" y2="-2.5" width="0" layer="46"/>
+<wire x1="1.4" y1="-2.5" x2="1.4" y2="-3.5" width="0" layer="46"/>
+<wire x1="-4.3" y1="-10.4" x2="4.3" y2="-10.4" width="0.2032" layer="21"/>
+<wire x1="4.3" y1="-10.4" x2="4.3" y2="3.9" width="0.2032" layer="51"/>
+<wire x1="4.3" y1="3.9" x2="-4.3" y2="3.9" width="0.2032" layer="51"/>
+<wire x1="-4.3" y1="3.9" x2="-4.3" y2="-10.4" width="0.2032" layer="21"/>
+<wire x1="-2.7" y1="3.9" x2="-4.3" y2="3.9" width="0.2032" layer="21"/>
+<wire x1="4.3" y1="3.9" x2="2.7" y2="3.9" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-10.275" x2="-3" y2="-3" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="3" y1="-10.3" x2="3" y2="-3" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="-0.9" y1="-9" x2="-0.9" y2="-4.5" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="0.9" y1="-9" x2="0.9" y2="-4.5" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="-0.9" y1="-9" x2="0.9" y2="-9" width="0.2032" layer="51" curve="166.57811"/>
+<wire x1="4.3" y1="-10.4" x2="4.3" y2="-2.45" width="0.2032" layer="21"/>
+<wire x1="4.3" y1="2.3" x2="4.3" y2="3.9" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="3.1" drill="1" diameter="2" shape="long" rot="R180"/>
+<pad name="3" x="0" y="-3" drill="1" diameter="2" shape="long" rot="R180"/>
+<pad name="2" x="4.8" y="0" drill="1" diameter="2" shape="long" rot="R90"/>
+<text x="-3.81" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-10.16" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="DCJ0202" urn="urn:adsk.eagle:package:7491/1" type="box" library_version="2">
+<description>DC POWER JACK
+Source: DCJ0202.pdf</description>
+<packageinstances>
+<packageinstance name="DCJ0202"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="DC-JACK-SWITCH" urn="urn:adsk.eagle:symbol:7485/1" library_version="2">
+<wire x1="5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.016" x2="-0.762" y2="-2.54" width="0.1524" layer="94"/>
+<text x="-2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-3.302" y1="-2.54" x2="-1.778" y2="1.27" layer="94"/>
+<pin name="1" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="-2.54"/>
+<vertex x="2.032" y="-1.27"/>
+<vertex x="3.048" y="-1.27"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DCJ0202" urn="urn:adsk.eagle:component:7495/2" prefix="J" library_version="2">
+<description>&lt;b&gt;DC POWER JACK&lt;/b&gt;&lt;p&gt;
+Source: DCJ0202.pdf</description>
+<gates>
+<gate name="G$1" symbol="DC-JACK-SWITCH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DCJ0202">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7491/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="17" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -20320,6 +20440,8 @@ www.betemcu.cu</description>
 <part name="U$1" library="Arduino-clone" deviceset="PRO-MINI" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="J1" library="con-jack" library_urn="urn:adsk.eagle:library:154" deviceset="DCJ0202" device="" package3d_urn="urn:adsk.eagle:package:7491/1"/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20508,6 +20630,13 @@ www.betemcu.cu</description>
 <instance part="GND2" gate="1" x="187.96" y="109.22" smashed="yes">
 <attribute name="VALUE" x="185.42" y="106.68" size="1.778" layer="96"/>
 </instance>
+<instance part="J1" gate="G$1" x="157.48" y="124.46" smashed="yes">
+<attribute name="NAME" x="154.94" y="128.27" size="1.778" layer="95"/>
+<attribute name="VALUE" x="154.94" y="118.11" size="1.778" layer="96"/>
+</instance>
+<instance part="GND12" gate="1" x="177.8" y="116.84" smashed="yes">
+<attribute name="VALUE" x="175.26" y="114.3" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -20637,6 +20766,17 @@ www.betemcu.cu</description>
 <pinref part="C1" gate="G$1" pin="-"/>
 <wire x1="187.96" y1="114.3" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="165.1" y1="121.92" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="121.92" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="121.92" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="124.46" x2="172.72" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="124.46" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
+<junction x="172.72" y="121.92"/>
 </segment>
 </net>
 <net name="TX_ARDUINO" class="0">
@@ -21097,10 +21237,11 @@ www.betemcu.cu</description>
 <pinref part="IC2" gate="A1" pin="VI"/>
 <wire x1="193.04" y1="125.73" x2="187.96" y2="125.73" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="187.96" y1="125.73" x2="179.07" y2="125.73" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="121.92" x2="187.96" y2="125.73" width="0.1524" layer="91"/>
-<junction x="187.96" y="125.73"/>
-<label x="179.07" y="125.73" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="187.96" y1="121.92" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="124.46" x2="187.96" y2="125.73" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="127" x2="187.96" y2="127" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="127" x2="187.96" y2="125.73" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC_3V3" class="0">
