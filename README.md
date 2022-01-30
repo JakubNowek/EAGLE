@@ -1,14 +1,14 @@
 <br />
 <div align="center">
-  <h3 align="center">Electronics in automation</h3>
+  <h2 align="center">Electronics in Automation</h3>
 
   <p align="center">
-    7-Segment-Digital-Clock-Project
+    7-Segment Display Clock Project
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/JakubNowek/EAGLE/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/JakubNowek/EAGLE/issues">Request Feature</a>
   </p>
 </div>
 
@@ -21,9 +21,11 @@
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
-    <li><a href="#Finished Project">Finished Project</a></li>
-    <li><a href="#PCB layout">PCB layout</a></li>
-    <li><a href="#PCB layout">Bill of materials</a></li>
+    <li><a href="#finished-project">Finished Project</a>
+    </li>
+    <li><a href="#pcb-layout">PCB layout</a></li>
+    <li><a href="#arduino-code">Arduino Code</a></li>
+    <li><a href="#bill-of-materials">Bill of materials</a></li>
   </ol>
 </details>
 
@@ -35,8 +37,11 @@ Everything is powered up by a 12V power supply, the power of which is reduced to
 ![photo](https://i.imgur.com/30RqNAv.jpg)
 
 ## PCB layout
+Layout was auto generated using Altium Designer.
 ![pcb layout](https://i.imgur.com/HhZoBhG.png)
 
+## Arduino Code
+Used code for ESP module and Pro-Mini board can be found [here](projects/Serial_NTP_clock/ESP8266_with_NTP_code.ino) and [here](projects/Serial_NTP_clock/Pro_mini_code.ino).
 
 ## Bill of materials
 | Qty | Value       | Device              |
