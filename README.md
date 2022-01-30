@@ -20,28 +20,16 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#Finished Project">Finished Project</a></li>
+    <li><a href="#PCB layout">PCB layout</a></li>
+    <li><a href="#PCB layout">Bill of materials</a></li>
   </ol>
 </details>
 
-## About the project
-
+## About the Project
+The ESP-01s module connects to NTP server and retrives information about the current date from it. Next data is forwarded towards Arduino Pro-Mini which extracts the time in hours, minutes and seconds and sends them towards 7-segments display through shift register.
+Everything is powered up by a 12V power supply, the power of which is reduced to 5V by a voltage stabilizer.
 
 ## Finished Project
 ![photo](https://i.imgur.com/30RqNAv.jpg)
