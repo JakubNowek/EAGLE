@@ -31,7 +31,7 @@
 
 ## About the Project
 The ESP-01s module connects to NTP server and retrives information about the current date from it. Next data is forwarded towards Arduino Pro-Mini which extracts the time in hours, minutes and seconds and sends them towards 7-segments display through shift register.
-Everything is powered up by a 12V power supply, the power of which is reduced to 5V by a voltage stabilizer.
+Everything is powered up by a 7.5-25V power supply, the power of which is reduced to 5V by a voltage stabilizer.
 
 ## Finished Project
 ![photo](https://i.imgur.com/30RqNAv.jpg)
