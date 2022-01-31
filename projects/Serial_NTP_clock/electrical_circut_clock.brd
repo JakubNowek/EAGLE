@@ -2211,16 +2211,37 @@ design rules under a new name.</description>
 <wire x1="48.26" y1="10.16" x2="45.72" y2="7.62" width="0.5" layer="16"/>
 <wire x1="45.72" y1="7.62" x2="39.37" y2="7.62" width="0.5" layer="16"/>
 <wire x1="39.37" y1="7.62" x2="36.83" y2="5.08" width="0.5" layer="16"/>
-<polygon width="0.1016" layer="1" isolate="0.4064" orphans="yes">
-<vertex x="8.7" y="76.5"/>
-<vertex x="-24.9" y="42.9"/>
-<vertex x="-24.9" y="4.8"/>
-<vertex x="-5.1" y="-15"/>
-<vertex x="155.4" y="-15"/>
-<vertex x="155.4" y="73.2"/>
-<vertex x="146.4" y="82.2"/>
-<vertex x="14.4" y="82.2"/>
+<via x="14.7" y="47.1" extent="1-16" drill="0.9"/>
+<via x="15.3" y="28.5" extent="1-16" drill="0.9"/>
+<via x="45.9" y="27.9" extent="1-16" drill="0.9"/>
+<via x="77.1" y="23.7" extent="1-16" drill="0.9"/>
+<via x="99.3" y="24.6" extent="1-16" drill="0.9"/>
+<via x="108.6" y="51" extent="1-16" drill="0.9"/>
+<polygon width="0.4" layer="16">
+<vertex x="-15.3" y="72.3"/>
+<vertex x="-15.3" y="0.3"/>
+<vertex x="3.3" y="-18.3"/>
+<vertex x="162.9" y="-18.3"/>
+<vertex x="173.4" y="-7.8"/>
+<vertex x="173.4" y="52.5"/>
+<vertex x="152.7" y="73.2"/>
+<vertex x="151.2" y="74.7"/>
+<vertex x="0.3" y="74.7"/>
+<vertex x="-12.9" y="74.7"/>
 </polygon>
+<polygon width="0.4" layer="1" isolate="0.4">
+<vertex x="-1.2" y="77.7"/>
+<vertex x="-1.2" y="-16.2"/>
+<vertex x="3.3" y="-20.7"/>
+<vertex x="127.5" y="-20.7"/>
+<vertex x="133.2" y="-15"/>
+<vertex x="149.1" y="0.9"/>
+<vertex x="149.1" y="66.3"/>
+<vertex x="130.2" y="85.2"/>
+<vertex x="64.8" y="85.2"/>
+<vertex x="6.3" y="85.2"/>
+</polygon>
+<via x="6" y="15" extent="1-16" drill="0.9"/>
 </signal>
 <signal name="VCC">
 <contactref element="IC1" pad="16"/>
@@ -2450,22 +2471,6 @@ design rules under a new name.</description>
 <wire x1="38.95313125" y1="21.9804" x2="60.5696" y2="21.9804" width="0.4" layer="16"/>
 <wire x1="60.5696" y1="21.9804" x2="69.85" y2="12.7" width="0.4" layer="16"/>
 </signal>
-<signal name="DATA_PIN">
-<contactref element="IC1" pad="14"/>
-<wire x1="18.63313125" y1="3.4196" x2="16.97273125" y2="5.08" width="0.4" layer="16"/>
-<wire x1="48.26" y1="7.62" x2="44.0596" y2="3.4196" width="0.4" layer="16"/>
-<wire x1="44.0596" y1="3.4196" x2="18.63313125" y2="3.4196" width="0.4" layer="16"/>
-</signal>
-<signal name="CLOCK_PIN">
-<contactref element="U$1" pad="D11"/>
-<contactref element="IC1" pad="11"/>
-<wire x1="48.26" y1="15.24" x2="48.26" y2="15.206365625" width="0.4" layer="1"/>
-<wire x1="48.26" y1="15.206365625" x2="44.76726875" y2="11.713634375" width="0.4" layer="1"/>
-<wire x1="44.76726875" y1="11.713634375" x2="44.76726875" y2="6" width="0.4" layer="1"/>
-<wire x1="44.76726875" y1="6" x2="42.18686875" y2="3.4196" width="0.4" layer="1"/>
-<wire x1="42.18686875" y1="3.4196" x2="15.6304" y2="3.4196" width="0.4" layer="1"/>
-<wire x1="15.6304" y1="3.4196" x2="13.97" y2="5.08" width="0.4" layer="1"/>
-</signal>
 <signal name="LATCH_PIN">
 <contactref element="U$1" pad="D10"/>
 <contactref element="IC1" pad="12"/>
@@ -2645,8 +2650,9 @@ design rules under a new name.</description>
 <wire x1="19.51273125" y1="20.32" x2="21.17313125" y2="18.6596" width="0.4" layer="16"/>
 <wire x1="21.17313125" y1="18.6596" x2="24.6596" y2="18.6596" width="0.4" layer="16"/>
 <wire x1="25.6636" y1="19.6636" x2="25.6636" y2="21.39086875" width="0.4" layer="16"/>
-<wire x1="26.67" y1="22.39726875" x2="26.67" y2="24.13" width="0.4" layer="16"/>
-<wire x1="25.6636" y1="21.39086875" x2="26.67" y2="22.39726875" width="0.4" layer="16"/>
+<wire x1="26.37" y1="23.83" x2="26.67" y2="24.13" width="0.4" layer="16"/>
+<wire x1="26.37" y1="23.83" x2="26.37" y2="22.09726875" width="0.4" layer="16"/>
+<wire x1="25.6636" y1="21.39086875" x2="26.37" y2="22.09726875" width="0.4" layer="16"/>
 </signal>
 <signal name="N$33">
 <contactref element="R6" pad="1"/>
@@ -2800,10 +2806,28 @@ design rules under a new name.</description>
 <signal name="N$9">
 <contactref element="R4" pad="1"/>
 <contactref element="U$1" pad="D7"/>
-<wire x1="16.51" y1="20.32" x2="34.29" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="19.3072" y1="23.1172" x2="16.51" y2="20.32" width="0.4" layer="1"/>
+<wire x1="34.29" y1="24.13" x2="28.10231875" y2="24.13" width="0.4" layer="1"/>
+<wire x1="28.10231875" y1="24.13" x2="27.08951875" y2="23.1172" width="0.4" layer="1"/>
+<wire x1="27.08951875" y1="23.1172" x2="19.3072" y2="23.1172" width="0.4" layer="1"/>
 </signal>
-<signal name="N$11">
+<signal name="CLOCK_PIN">
+<contactref element="U$1" pad="D11"/>
+<contactref element="IC1" pad="11"/>
+<wire x1="48.26" y1="15.24" x2="44.4" y2="11.38" width="0.4" layer="1"/>
+<wire x1="44.4" y1="11.38" x2="44.4" y2="3.6" width="0.4" layer="1"/>
+<wire x1="44.4" y1="3.6" x2="43.5" y2="2.7" width="0.4" layer="1"/>
+<wire x1="43.5" y1="2.7" x2="15.9" y2="2.7" width="0.4" layer="1"/>
+<wire x1="15.9" y1="2.7" x2="13.97" y2="4.63" width="0.4" layer="1"/>
+<wire x1="13.97" y1="4.63" x2="13.97" y2="5.08" width="0.4" layer="1"/>
+</signal>
+<signal name="DATA_PIN">
 <contactref element="U$1" pad="D12"/>
+<contactref element="IC1" pad="14"/>
+<wire x1="48.26" y1="7.62" x2="43.34" y2="2.7" width="0.4" layer="16"/>
+<wire x1="43.34" y1="2.7" x2="18" y2="2.7" width="0.4" layer="16"/>
+<wire x1="18" y1="2.7" x2="16.51" y2="4.19" width="0.4" layer="16"/>
+<wire x1="16.51" y1="4.19" x2="16.51" y2="5.08" width="0.4" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
